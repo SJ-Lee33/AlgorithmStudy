@@ -58,7 +58,6 @@ void Find_M_Combination(int x, int m)
 
 int main()
 {
-    // 입력
     cin >> N >> M;
     for (int i = 0; i < N; i++)
     {
@@ -72,6 +71,7 @@ int main()
                 chicken_pos.push_back({ i, j });
         }
     }
+
     Find_M_Combination(0, 0);
     cout << MIN << endl;
     return 0;
